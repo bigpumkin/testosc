@@ -27,7 +27,7 @@ private:
         // number of samples to stream every time the function is called;
         // in a more robust implementation, it should be a fixed
         // amount of time rather than an arbitrary number of samples
-                
+        osc.process(44100);      
         const int samplesToStream = 50000;
         
         data.sampleCount = samplesToStream;
